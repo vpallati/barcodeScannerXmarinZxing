@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="5">
+<!--
+    <Button
+        android:text="Scan with Default Overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScanDefaultView"
+        android:layout_weight="1" />
+    <Button
+        android:text="Continuous Scanning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScanContinuous"
+        android:layout_weight="1" />
+
+   Cool comment -->
+    <Button
+        android:id="@+id/buttonScanCustomView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Scan"
+        android:layout_weight="1"
+        android:background="#FF0000" />
+    <TextView
+        android:text="Created By Vishnu Vardhan - using ZXing plugin for Xamarin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewContent"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:layout_marginRight="20dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBarcodes"
+        android:layout_weight="0.5"
+        android:text="Scanned Barcodes : "
+        android:textColor="#000000" />
+<!--
+    <Button
+        android:text="Fragment Scanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFragment"
+        android:layout_weight="1" />
+    <Button
+        android:text="Barcode Generator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGenerate"
+        android:layout_weight="1" />
+        
+        -->
+</LinearLayout>
